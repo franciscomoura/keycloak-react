@@ -9,8 +9,8 @@ function init() {
 	// Later on the article we'll see what a  and
 	// a  means in Keycloak.
 	keycloak = new window.Keycloak({
-		url: 'http://127.0.0.1:8080/auth',
-		realm: 'React App',
+		url: 'https://auth.local',
+		realm: 'demo',
 		clientId: 'react-app-1'
 	});
 }
